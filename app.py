@@ -66,7 +66,7 @@ def user_input(user_question):
         )
         
         print(response)
-        st.write("Sure, here you go:", response['output_text'])
+        st.write("Your Answer: ", response['output_text'])
     else:
         st.warning("No relevant documents found. Please try another question or upload more PDF files.")
 def main():
