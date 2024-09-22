@@ -13,21 +13,21 @@ This project implements an AI-powered chatbot that answers questions based on up
 - LangChain: Chains document retrieval and generative responses into a seamless workflow.
 ## Setup Instructions
 ### Prerequisites
-  Python 3.9 or higher
-  Google Gemini AI API key (Get it from Google Cloud)
-  FAISS library installed
-  A .env file with your Google API key:
-    GOOGLE_API_KEY=your_google_api_key
+  - Python 3.9 or higher
+  - Google Gemini AI API key (Get it from Google Cloud)
+  - FAISS library installed
+  - A .env file with your Google API key:
+    - GOOGLE_API_KEY=your_google_api_key
 ### Installation
   1. Clone the repository:
-     git clone https://github.com/your-username/pdf-conversational-bot.git
-     cd pdf-conversational-bot
+     - git clone https://github.com/your-username/pdf-conversational-bot.git
+     - cd pdf-conversational-bot
   2. Install Dependencies:
-     pip install -r requirements.txt
+     - pip install -r requirements.txt
   3. Set up environment variables in the .env file:
-     GOOGLE_API_KEY=your_google_api_key
+     - GOOGLE_API_KEY=your_google_api_key
   4. Run the Streamlit app:
-     streamlit run app.py
+     - streamlit run app.py
 ### Usage Instructions
 1. Upload PDFs: In the Streamlit sidebar, upload one or multiple PDF files.
 2. Process PDFs: After uploading, click the 'Process' button to extract and store 
